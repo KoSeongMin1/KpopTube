@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    width: 280px;
+    height: 157.5px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #F361A6;
+}
+header>img{
+    margin-left: 400px;
+}
+.search{
+    width: 750px;
+    height: 30px;
+    margin-top: -75px;
+    margin-left: 700px;
+    position: absolute;
+}
+.search input{
+    width: 90%;
+    height: 100%;
+    border: 0px;
+}
+.search button{
+    width: 9%;
+    height: 30px;
+    border: 0px;
+}
+.search button:hover{
+    background-color: #999999;
+    cursor: pointer;
+}
+.btn{
+    position: absolute;
+    z-index: 10;
+    margin-top: -115px;
+    margin-left: 1350px;
+    width: 300px;
+    height: 30px;
+}
+.btn button{
+    width: 25%;
+    border-style: none;
+    background-color: #F361A6;
+}
+.btn button:hover{
+    background-color: #7F184E;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu{
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 20%;
+    background-color: #F361A6;
+    position: relative;
+    z-index: 1;
+}
+.menu:hover{
+    color: #ffffff;
+    background-color: #7F184E;
+    cursor: default;
+}
+.menu p{
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: 700;
+    padding-top: 5px;
+}
+.menubar{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: #7F184E;
+    display: none;
+}
+.menubar ul{
+    width: 600px;
+    margin: 0 auto;
+}
+.menubar ul li{
+    width: 20%;
+    font-size: 18px;
+    float: left;
+    list-style: none;
+    font-family: "Arial";
+    margin-top: 25px;
+}
+.menubar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menubar ul li a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.warp{
+    width: 1400px;
+    height: 1400px;
+    margin: 0 auto;
+}
+.popular{
+    width: 100%;
+    height: 60%;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #F361A6;
+}
+.frame{
+    width: 25%;
+    height: 210px;
+    text-align: center;
+    margin: 20px 0px;
+    float: left;
+}
+.frame p{
+    text-align: center;
+    font-weight: 700;
+}
+.frame p:hover{
+    color: #0000ff;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.recent{
+    width: 100%;
+    height: 40%;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #F361A6;
+}
+footer p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 280px;
+}
+footer p span{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+footer p span:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
